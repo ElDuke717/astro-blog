@@ -51,12 +51,30 @@
 	--theme-code-bg: var(--color-gray-700);
 }
 
+/* These are reference colors for the galaxy svg */
+.galaxy {
+	background-image: linear-gradient(0deg,
+			hsl(240deg 100% 20%) 0%,
+			hsl(231deg 79% 33%) 6%,
+			hsl(222deg 80% 44%) 12%,
+			hsl(213deg 100% 50%) 19%,
+			hsl(248deg 100% 70%) 27%,
+			hsl(279deg 100% 66%) 35%,
+			hsl(300deg 100% 50%) 43%,
+			hsl(341deg 100% 66%) 52%,
+			hsl(34deg 100% 69%) 61%,
+			hsl(67deg 93% 83%) 70%,
+			hsl(48deg 100% 88%) 80%,
+			hsl(32deg 100% 95%) 90%,
+			hsl(0deg 33% 99%) 100%);
+}
+
 body {
 	background: var(--theme-bg);
 	color: var(--theme-text);
 }
 
-:root.theme-dark {
+:root {
 	color-scheme: dark;
 	--theme-accent-opacity: 0.3;
 	--theme-divider: var(--color-gray-900);
@@ -165,14 +183,14 @@ a {
 	gap: 0.5rem;
 }
 
-a > code {
+a>code {
 	position: relative;
 	color: var(--theme-accent);
 	background: transparent;
 	text-underline-offset: var(--padding-block);
 }
 
-a > code::before {
+a>code::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -217,7 +235,7 @@ code {
 	word-break: break-word;
 }
 
-pre.astro-code > code {
+pre.astro-code>code {
 	all: unset;
 }
 
