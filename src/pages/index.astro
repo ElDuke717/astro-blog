@@ -9,7 +9,7 @@ import BlogPostPreview from '../components/BlogPostPreview.astro';
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
 let title = 'Too long for social media';
-let description = "I'm a food scientist becoming software developer. I enjoy web development and the JavaScript ecosystem, though I often find them perplexing.  Here I post about things I've learned or tried to learn, or find useful or interesting.";
+let description = "I'm a food scientist turning into web developer. I enjoy web development and the JavaScript ecosystem, though I often find them perplexing.  Here I post things that I think are interesting or useful and too long for social media.";
 let permalink = 'https://nickhuemmer.io/';
 
 // Data Fetching: List all Markdown posts in the repo.
@@ -55,8 +55,9 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 			}
 
 			.latest {
-				font-size: 2.5rem;
+				font-size: 3rem;
 				font-weight: 700;
+				color: var(--theme-accent)
 			}
 		</style>
 	</head>
