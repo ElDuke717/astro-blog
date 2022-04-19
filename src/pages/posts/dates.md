@@ -32,7 +32,7 @@ let myBirthdayParty = new Date('June 8, 1985, 04:15')
 
 console.log(myBirthdayParty) // 1985-06-08T08:15:00.000Z
 ```
-Notice that the birthday party's date is now formatted differently and  `myBirthdayParty` is stored as an object that we can interact with.  Notice that JavaScript gives the birthday party date in [UTC](https://www.timeanddate.com/time/aboututc.html) time - it's four hours ahead of my time zone (Eastern United States).  
+The birthday party's date is now formatted differently and  `myBirthdayParty` is stored as an object that we can interact with.  Notice that JavaScript gives the birthday party date in [UTC](https://www.timeanddate.com/time/aboututc.html) time - it's four hours ahead of my time zone (Eastern United States).  
 
 JavaScript has a number of date methods that can be used to pull information from the date:
 ```javascript
