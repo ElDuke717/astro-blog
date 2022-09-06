@@ -8,7 +8,7 @@ name: Nick Huemmer
 description: Let's Figure Out to Get the Length of a Nested Array
 ---
 
-<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer" client:load />
+<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer"  />
 
 Let's look at a problem that deals with nested arrays.  A nested array is simply an array that is contained within another array.
 

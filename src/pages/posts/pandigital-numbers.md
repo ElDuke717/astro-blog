@@ -8,7 +8,7 @@ name: Nick Huemmer
 description: Does this number have all of the digits 0-9?
 ---
 
-<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer" client:load />
+<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer"  />
 
 This was an interesting challenge that involves converting a multi-digit number to an array, then using array methods, the spread operator and the [`new Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) constructor to determine if the array contains all of the digits 0-9.
 

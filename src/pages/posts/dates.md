@@ -8,7 +8,7 @@ name: Nick Huemmer
 description: How to use dates in JavaScript
 ---
 
-<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer" client:load />
+<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer" />
 
 I found the whole `Date` thing in JavaScript to be a bit confusing, so here's a description of how it works and a challenge involves using dates.
 

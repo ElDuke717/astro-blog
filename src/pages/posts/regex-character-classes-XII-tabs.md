@@ -1,20 +1,19 @@
 ---
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
-  import Cool from '../../components/Author.astro'
-title: RegEx: Character Classes XII ⁠- \t
+
+title: RegEx Character Classes XII ⁠
 publishDate: 20 May 2022
 name: Nick Huemmer
 description: A tab and space challenge with Regex?
 ---
 
-<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer" client:load />
 
 Hello, 
 I haven't posted in awhile.  I've been busy learning Next.js and more about the FullStack.  I have many more posts coming up, I just need to take the time to write them up.  Such is keeping up with a blog.
 
 Here's a Regex Challenge
-[RegEx: Character Classes XII ⁠- \t](https://edabit.com/challenge/w2abzEMHE7SFLQzDq)
+[RegEx: Character Classes XII ](https://edabit.com/challenge/w2abzEMHE7SFLQzDq)
 
 Match the tab followed by the space in:
 ```javascript

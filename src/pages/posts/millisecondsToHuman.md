@@ -8,7 +8,7 @@ name: Nick Huemmer
 description: Convert milliseconds to human readable time with JavaScript
 ---
 
-<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer" client:load />
+<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer"  />
 
 Building on working with dates, here's a bit of code that I came across that I thought was interesting and useful.
 

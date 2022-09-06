@@ -1,14 +1,14 @@
 ---
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
-  import Cool from '../../components/Author.astro'
+  
 title: Regular Expressions - Character Classes
 publishDate: 19 April 2022
 name: Nick Huemmer
 description: Here's one way to use regular expressions (regex) to solve the problem of finding a sequence of characters in a string.
 ---
 
-<Cool name={frontmatter.name} href="https://twitter.com/nickhuemmer" client:load />
+
 
 [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) are patterns used to match character combinations in strings.  They are used to match or replace pattern in a string and are pretty commonly used in JavaScript and other programming languages.  They can be tricky to learn but are also very useful when used in the right place. 
 

@@ -1,7 +1,7 @@
 ---
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
-  import Cool from '../../components/Author.astro'
+  
 title: Simon Says
 publishDate: 6 Septemver 2022
 name: Nick Huemmer
@@ -10,7 +10,7 @@ value: 128
 description: Only perform an operation if Simon says!
 ---
 
-<Cool name={frontmatter.name} href={frontmatter.twitter} client:load />
+
 # [Simon Says](https://edabit.com/challenge/DxAhwhR3cxiHK9E4d)
 
 This problem was considered __very hard__ by Edabit.  
