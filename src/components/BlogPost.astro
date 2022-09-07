@@ -7,9 +7,11 @@ export interface Props {
 	publishDate: string;
 	heroImage: string;
 	alt: string;
+	tags: string;
 }
 
-const { title, author, publishDate, heroImage, alt } = Astro.props;
+const { title, author, publishDate, heroImage, alt, tags } = Astro.props;
+console.log(Astro.props)
 ---
 
 <div class="layout">

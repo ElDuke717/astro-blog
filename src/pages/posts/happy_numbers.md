@@ -3,11 +3,12 @@ setup: |
   import Layout from '../../layouts/BlogPost.astro'
   
 title:  Happy Numbers
-publishDate: 7 Septemver 2022
+publishDate: 7 September 2022
 name: Nick Huemmer
 twitter: "https://twitter.com/nickhuemmer"
 value: 128
-description: Only perform an operation if Simon says!
+description: Determine if a number is a happy number or not.
+tags: edabit, javascript, filter, happy numbers
 ---
 
 # [Happy Numbers](https://edabit.com/challenge/EhGY9aaNHiCqqpnL9) 

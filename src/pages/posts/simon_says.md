@@ -3,11 +3,12 @@ setup: |
   import Layout from '../../layouts/BlogPost.astro'
   
 title: Simon Says
-publishDate: 6 Septemver 2022
+publishDate: 6 September 2022
 name: Nick Huemmer
 twitter: "https://twitter.com/nickhuemmer"
 value: 128
 description: Only perform an operation if Simon says!
+tags: arrays, map, filter, eval, javascript
 ---
 
 

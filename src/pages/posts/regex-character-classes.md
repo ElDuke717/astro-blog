@@ -6,6 +6,7 @@ title: Regular Expressions - Character Classes
 publishDate: 19 April 2022
 name: Nick Huemmer
 description: Here's one way to use regular expressions (regex) to solve the problem of finding a sequence of characters in a string.
+tags: regular expressions, regex, regex101, sequence of characters
 ---
 
 
