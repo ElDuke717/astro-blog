@@ -32,8 +32,10 @@ This problem was a tough one as it involved recursion, but also a tricky conditi
 ## Examples
 
 >happy(203) ➞ true
-happy(11) ➞ false
-happy(107) ➞ false
+
+>happy(11) ➞ false
+
+>happy(107) ➞ false
 
 ## My solution
 
