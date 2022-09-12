@@ -7,7 +7,7 @@ publishDate: 12 September 2022
 name: Nick Huemmer
 twitter: "https://twitter.com/nickhuemmer"
 value: 128
-description: Only perform an operation if Simon says!
+description: Is the number surrounded by pluses?
 tags: arrays, map, filter, for ... loop, javascript, ternary operator, regex, push, Edabit
 ---
 
