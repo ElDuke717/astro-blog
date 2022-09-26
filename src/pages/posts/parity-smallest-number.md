@@ -8,7 +8,7 @@ name: Nick Huemmer
 twitter: "https://twitter.com/nickhuemmer"
 value: 128
 description:  Return the parity of the smallest number in an array
-tags: JavaScript, arrays, logic, loops, JavaScript, map, Edabit, objects, Object.fromEntries, string interpolation.
+tags: loops, JavaScript, map, Edabit, objects, Object.fromEntries, string interpolation.
 ---
 
 

@@ -25,6 +25,10 @@ However, there are a few ways to compare two arrays in JavaScript.  In this post
 
 Here's one way that is short and sweet:
 ```javascript
+const a = [1, 2, 3];
+const b = [4, 5, 6];
+const c = [1, 2, 3];
+
 function arrayEquals(a, b) {
   return Array.isArray(a) &&
     Array.isArray(b) &&
