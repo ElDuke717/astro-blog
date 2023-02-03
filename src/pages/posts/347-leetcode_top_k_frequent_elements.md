@@ -2,7 +2,7 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
 
-title: Leetcode 347 - Top K frequent elements]
+title: Leetcode 347 - Top K frequent elements
 publishDate: 03 Feb 2023
 name: Nick Huemmer
 twitter: 'https://twitter.com/nickhuemmer'
