@@ -1,6 +1,6 @@
 ---
 setup: |
-  import Layout from '../../../layouts/BlogPost.astro'
+  import Layout from 'src/layouts/BlogPost.astro'
 
 title: JavaScript OOP - Stack
 publishDate: 05 Feb 2023
@@ -9,6 +9,7 @@ twitter: 'https://twitter.com/nickhuemmer'
 value: 128
 description: Create a Stack constructor function.
 tags:
+
   [
     JavaScript,
     OOP,
