@@ -1,3 +1,16 @@
+---
+setup: |
+  import Layout from '../../../../layouts/BlogPost.astro'
+
+title: JavaScript OOP - Stack
+publishDate: 05 Feb 2023
+name: Nick Huemmer
+twitter: 'https://twitter.com/nickhuemmer'
+value: 128
+description: Create a Stack constructor function.
+tags: JavaScript, OOP, Object-Oriented-Programming, prototype, methods
+---
+
 # ChatGPT medium OOP problem Stack
 
 This is similar to another `Stack` problem floating around, perhaps less difficult?
