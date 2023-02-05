@@ -1,6 +1,6 @@
 ---
-setup: |
-  import Layout from 'src/layouts/BlogPost.astro'
+# setup: |
+#   import Layout from 'src/layouts/BlogPost.astro'
 
 title: JavaScript OOP - Stack
 publishDate: 05 Feb 2023
