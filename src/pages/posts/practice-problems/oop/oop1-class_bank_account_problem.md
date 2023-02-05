@@ -8,7 +8,8 @@ name: Nick Huemmer
 twitter: 'https://twitter.com/nickhuemmer'
 value: 128
 description: Create a Bank Account Class
-tags: JavaScript, OOP, Object-Oriented-Programming, prototype, methods
+tags:
+  [JavaScript, OOP, Object-Oriented-Programming, prototype, methods]
 ---
 
 Here's an Object-Oriented Programming problem using Class syntax. Try to solve it yourself before looking at the solution.
