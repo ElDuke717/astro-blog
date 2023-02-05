@@ -1,6 +1,6 @@
 ---
 setup: |
-  import Layout from '../../../layouts/BlogPost.astro'
+  import Layout from '../../../../../layouts/BlogPost.astro'
 
 title: JavaScript OOP - Bank Account Class
 publishDate: 02 Feb 2023
