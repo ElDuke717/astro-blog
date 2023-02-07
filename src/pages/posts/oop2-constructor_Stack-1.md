@@ -8,15 +8,11 @@ name: Nick Huemmer
 twitter: 'https://twitter.com/nickhuemmer'
 value: 128
 description: Create a Stack constructor function.
-tags:
-
-  [
-    JavaScript,
-    OOP,
-    Object-Oriented-Programming,
-    prototype,
-    constructor function,
-  ]
+tags: JavaScript,
+  OOP,
+  Object-Oriented-Programming,
+  prototype,
+  constructor functions,
 ---
 
 # ChatGPT medium OOP problem Stack
