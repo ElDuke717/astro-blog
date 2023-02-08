@@ -23,11 +23,14 @@ This is a good set of OOP problems to work through to get a better understanding
 
 ```javascript
 /*
-	Create a constructor function called "Car" with properties such as car model, year, rental price per day, and a method that returns a string describing the car.
+	Create a constructor function called "Car" with properties such as car model, 
+  year, rental price per day, and a method that returns a string describing the car.
 
-  Create another constructor function "Rental" that has a reference to a car and rental dates. It should have methods to calculate the rental cost based on the number of days rented and display rental details.
+  Create another constructor function "Rental" that has a reference to a car and rental 
+  dates. It should have methods to calculate the rental cost based on the number of days rented and display rental details.
 
-  Create a constructor function "Customer" with name, rental history and a method to display all rental history.
+  Create a constructor function "Customer" with name, rental history and a method to 
+  display all rental history.
 */
 ```
 
