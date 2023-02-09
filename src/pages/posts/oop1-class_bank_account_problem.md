@@ -13,18 +13,17 @@ tags: JavaScript, OOP, Object-Oriented-Programming, prototype, methods
 
 Here's an Object-Oriented Programming problem using Class syntax. Try to solve it yourself before looking at the solution.
 
+## The Problem:
+
 > Problem: Create a BankAccount class with properties balance and owner. The class should have methods deposit(amount) and withdraw(amount) that update the balance accordingly. The class should also have a method transfer(otherAccount, amount) that transfers the specified amount from the current account to the other account.
 
-Here's my solution. It's pretty straightforward.
-
 ## My Solution
+
+Here's my solution. It's pretty straightforward.
 
 Make sure to include edge cases so that accounts are not overdrawn for withdrawals or transfers!
 
 ```javascript
-/*
->Problem: Create a BankAccount class with properties balance and owner. The class should have methods deposit(amount) and withdraw(amount) that update the balance accordingly. The class should also have a method transfer(otherAccount, amount) that transfers the specified amount from the current account to the other account.
-*/
 
 //i: balance - number
 //i: owner - string

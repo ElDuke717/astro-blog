@@ -13,6 +13,8 @@ tags: JavaScript, object oriented programming, OOP, codesmith, objects, construc
 
 This is another "not-too-difficult" OOP problem to help you learn the syntax and work on your technical communication (try to solve it out loud!).  I had fun using it to imagine a McDonald's in Scottsdale, Arizona that decides to testMcNuggets on their menu.
 
+## The Problem:
+
 >Create a Restaurant constructor function with properties name, location, and menu. The constructor should also have a property rating which is set to null by default. The function should have a method addDish(dish) that adds a dish to the menu object with a property of the dish name and value of the dish price. Create a separate method removeDish(dish) that removes a dish from the menu object. Create a method updateRating(newRating) that updates the rating property.
 
 ## My solution

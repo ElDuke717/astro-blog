@@ -15,6 +15,8 @@ This problem has you create a constructor function with three properties and two
 
 At the bottom of this post is an implementation of the function with the methods added on the prototype of `Student`.
 
+## The Problem:
+
 >Create a Student constructor function with properties name, age, and courses. The constructor should also have a property enrolled which is set to false by default. The function should have a method enroll() that sets the enrolled property to true and a method addCourse(course) that adds a course to the courses array. Create a separate method dropCourse(course) that removes a course from the courses array.
 
 My solution is below.  
