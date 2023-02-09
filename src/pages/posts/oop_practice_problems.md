@@ -35,7 +35,7 @@ Note that these problems often call for methods to be added, but don't necessari
 >
 >Create a separate method dropCourse(course) that removes a course from the courses array.
 
-[My solution ]()
+[My solution ](https://nickhuemmer.com/posts/oop_practice_student/)
 
 ## Problem 2 - Restaurant
 

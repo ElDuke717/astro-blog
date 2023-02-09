@@ -2,12 +2,12 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
 
-title: Restaurant Medium OOP problem with constructor functions Blog Post
+title: Restaurant Constructor - OOP problem 
 publishDate: 09 Feb 2023
 name: Nick Huemmer
 twitter: 'https://twitter.com/nickhuemmer'
 value: 128
-description: Create a Restaurant Constructor
+description: Create a Restaurant Constructor and create the menu!
 tags: JavaScript, object oriented programming, OOP, codesmith, objects, constructor functions, methods, new, prototype
 ---
 
