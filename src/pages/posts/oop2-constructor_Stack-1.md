@@ -77,16 +77,36 @@ const stuff = new Stack([
   false,
   'itchy',
 ]);
-console.log(stuff);
+console.log(stuff); 
+// Stack {
+//   stack: [
+//     1,
+//     true,
+//     'socks',
+//     5,
+//     42,
+//     'licorice',
+//     false,
+//     'itchy'
+//   ],
+//   push: ƒ (),
+//   pop: ƒ (),
+//   peek: ƒ (),
+//   isEmpty: ƒ (),
+//   size: ƒ (),
+// }
 console.log(stuff.stack);
+//[ 1, true, 'socks', 5, 42, 'licorice', false, 'itchy' ]
 console.log(stuff.push('dentures'));
-console.log(stuff.stack);
-console.log(stuff.size());
+//undefined
+
+console.log(stuff.stack);// [ 1, true, 'socks', 5, 42, 'licorice', false, 'itchy', 'dentures' ]
+console.log(stuff.size()); // 9
 console.log(stuff.isEmpty()); // false
-stuff.pop();
-console.log(stuff.size());
-console.log(stuff.stack);
-console.log(stuff.peek());
+stuff.pop(); 
+console.log(stuff.size());//8
+console.log(stuff.stack); // [ 1, true, 'socks', 5, 42, 'licorice', false, 'itchy' ]
+console.log(stuff.peek()); //'itchy'
 ```
 
 ## Another, more concise solution

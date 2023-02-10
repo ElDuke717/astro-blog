@@ -13,19 +13,22 @@ tags: JavaScript, object oriented programming, OOP, codesmith, objects, construc
 
 Hello fellow aspiring JavaScript master!
 
-Here are some JavaScript Object Oriented Programming practice problems that I put together to train myself for the [Codesmith](https://www.codesmith.io/) Technical Interview.  They are not the most difficult as I think it's more beneficial to work through less challenging problems to get used to the syntax and structure of a programming paradigm before attempting more challenging problems.  These problems also you an opportunity to work on your technical communication.
+Here are some JavaScript Object Oriented Programming practice problems that I put together to train myself for the [Codesmith](https://www.codesmith.io/) Technical Interview.  They are not the most difficult as I think it's more beneficial to work through less challenging problems to get used to the syntax and structure of a programming paradigm before attempting more challenging problems.  These problems also give you an opportunity to work on your technical communication - try to solve them while talking through your solution.  
 
 I've only posted the prompts here for your benefit.  I've posted my solutions elsewhere since I think:	
 1.  my solution may be more than you want or need to read
 2.  you can come up with a better solution than mine, so you won't need to look at my solution!
 
-At any rate, I have the solution linked in case you want to see how I handled the problem.
+At any rate, I have the solution linked in case you want to see how I handled the problem.  I've also posted solutions from ChatGPT that tend to be more concise and fast than mine, but I didn't add any comments or pseudocode to these solutions.
 
-If you come up with a better solution, send it to me!  We learn more together.
+If you come up with a better solution, [send it to me](mailto:fossbird@lightgreenmatcha.8shield.net) !  We learn more together.
 
 Since the `Class` syntax is ["syntactic sugar"](https://stackoverflow.com/questions/50835572/what-is-syntactic-sugar-in-javascript) for JavaScript constructor functions, I've stuck with probems that stictly use the constructor syntax.
 
-Note that these problems often call for methods to be added, but don't necessarily specify if they should be added to the constructor function itself or if they should be added to the prototype.  I recommend that you try both - add the method directly to the constructor function, and then add maybe the last one or two on the `prototype`.  Solving the problems this way will help you get your mind around 
+Note that these problems often call for methods to be added, but don't necessarily specify if they should be added to the constructor function itself or if they should be added to the prototype.  I recommend that you try both - add the method directly to the constructor function, and then add maybe the last one or two on the `prototype`.  Solving the problems this way will help you get your mind around how both syntax work.
+
+Check back here from time to time.  I may add some more OOP problems and solutions when I'm able.  Be on the look out for separate pages on recursion, closures, async and higher order functions.
+
 
 ## Problem 1 - Student 
 
@@ -45,7 +48,7 @@ Note that these problems often call for methods to be added, but don't necessari
 >
 >Create a separate method removeDish(dish) that removes a dish from the menu object. Create a method updateRating(newRating) that updates the rating property.
 
-[My solution]()
+[My solution](https://nickhuemmer.com/posts/oop_practice_restaurant/)
 
 
 ## Problem 3 - Movie
@@ -54,7 +57,7 @@ Note that these problems often call for methods to be added, but don't necessari
 >
 >Create a separate method getSummary() that returns a string in the format "The movie [title] was directed by [director] and starred [actors]. It has been [watched/not watched]."
 
-[My solution]()
+[My solution](https://nickhuemmer.com/posts/oop_practice_movie/)
 
 ## Problem 4 - Car Rental
 
@@ -83,4 +86,4 @@ This problem is similar to another one that is floating aroud.  It's written a b
  > - isEmpty(): Returns true if the stack is empty, false otherwise
  > - size(): Returns the number of elements in the stack.
 
-[My solution]()
+[My solution](https://nickhuemmer.com/posts/oop2-constructor_stack-1/)
