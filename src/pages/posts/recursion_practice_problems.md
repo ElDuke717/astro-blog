@@ -8,7 +8,7 @@ name: Nick Huemmer
 twitter: 'https://twitter.com/nickhuemmer'
 value: 128
 description: Some practice problems and a brief outline on how recursion works.
-tags: JavaScript, recursion, codesmith, arrays, numbers, edabit
+tags: JavaScript, recursion, codesmith, arrays, numbers, fibonacci sequence, factorial
 ---
 
 # JavaScript Recursion Practice Problems
@@ -23,7 +23,32 @@ I've only posted the prompts here for your benefit.  I've posted my solutions el
 1.  my solution may be more than you want or need to read
 2.  you can come up with a better solution than mine, so you won't need to look at my solution!
 
-## Some Notes on recursion (practice problems below this section)
+### Please note the brief overview of recursion that I posted below the problems.  It includes two classic examples of recursion in programming - calculating a *factorial* and a number in the *fibonacci sequence*.
+
+# Practice Problems
+
+## countDigits
+> Create a function that recursively counts an integer’s number of digits.
+
+[solution](https://nickhuemmer.com/posts/recursion_countdigits/)
+
+## findMax
+> Create a recursive function findMax that takes in an array of integers and finds the maximum value in the array using recursion.
+
+[solution](https://nickhuemmer.com/posts/recursion_findmax/)
+
+## Inclusive Array Ranges
+>Write a recursive function that, given the start startNum and end endNum values, return an array containing all the numbers inclusive to that range.
+
+[solution](https://nickhuemmer.com/posts/recursion_inclusive_array_ranges/)
+
+## Product of All Array Elements Except Current
+>Write a  recursive function that takes an array of integers as an argument and returns a new array that contains the product of all the integers in the input array except the one at the current index. You can not use division.
+
+[solution](https://nickhuemmer.com/posts/recusion_product_of_all_except_current/)
+
+
+## Some Notes on recursion 
 
 Recursion is a programming technique where a function calls itself repeatedly to perform a desired operation. The function will call itself  and will continue until a stopping condition is reached. Usually an operation in recursion will be done several times until a condition is met. It can be used to solve problems that can be divided into smaller subproblems that have a similar structure to the original problem. 
 
@@ -92,25 +117,5 @@ console.log(fib(20)); // -> 6765
 console.log(fib(30)); // -> 832040
 ```
 
-# Practice Problems
 
-## countDigits
-> Create a function that recursively counts an integer’s number of digits.
-
-[solution](https://nickhuemmer.com/posts/recursion_countdigits/)
-
-## findMax
-> Create a recursive function findMax that takes in an array of integers and finds the maximum value in the array using recursion.
-
-[solution](https://nickhuemmer.com/posts/recursion_findmax/)
-
-## Inclusive Array Ranges
->Write a recursive function that, given the start startNum and end endNum values, return an array containing all the numbers inclusive to that range.
-
-[solution](https://nickhuemmer.com/posts/recursion_inclusive_array_ranges/)
-
-## Product of All Array Elements Except Current
->Write a  recursive function that takes an array of integers as an argument and returns a new array that contains the product of all the integers in the input array except the one at the current index. You can not use division.
-
-[solution](https://nickhuemmer.com/posts/recusion_product_of_all_except_current/)
 
