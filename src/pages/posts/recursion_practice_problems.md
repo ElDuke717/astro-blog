@@ -23,7 +23,7 @@ I've only posted the prompts here for your benefit.  I've posted my solutions el
 1.  my solution may be more than you want or need to read
 2.  you can come up with a better solution than mine, so you won't need to look at my solution!
 
-## Some Notes on recursion (problems below)
+## Some Notes on recursion (practice problems below this section)
 
 Recursion is a programming technique where a function calls itself repeatedly to perform a desired operation. The function will call itself  and will continue until a stopping condition is reached. Usually an operation in recursion will be done several times until a condition is met. It can be used to solve problems that can be divided into smaller subproblems that have a similar structure to the original problem. 
 
