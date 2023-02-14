@@ -67,7 +67,7 @@ console.log(multiples([1, 1, 1, 1])); // [1, 1, 1, 1]
 console.log(multiples([5, 4, 3, 2, 1])); // [ 24, 30, 40, 60, 120 ]
 ```
 
-Here's the ChatGPT solution:
+## Here's an alternate solution, concocted by ChatGPT:
 
 ```javascript
 function getProductArrayRecursion(
