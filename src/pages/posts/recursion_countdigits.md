@@ -22,6 +22,9 @@ The two tricks to solve this problem are:
 
 This is a problem that I completed on the site [Edabit](https://edabit.com/challenge/uL2Hi8Aj3FDgW9F7q), made by [Deep Xavier](https://edabit.com/user/a777e8chPvJkY3tKa).
 
+
+## My Solution
+
 ```javascript
 //i: number
 //o: number
