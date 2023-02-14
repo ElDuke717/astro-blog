@@ -13,7 +13,7 @@ tags: JavaScript, recursion, codesmith, arrays, numbers, edabit
 
 # The Problem
 
->Create a function that recursively counts the integer's number of digits.
+>Create a function that recursively counts an integer's number of digits.
 
 The two tricks to solve this problem are: 
 

@@ -95,7 +95,7 @@ console.log(fib(30)); // -> 832040
 # Practice Problems
 
 ## countDigits
-> Create a function that recursively counts the integer’s number of digits.
+> Create a function that recursively counts an integer’s number of digits.
 
 [solution](https://nickhuemmer.com/posts/recursion_countdigits/)
 
