@@ -23,7 +23,7 @@ I've only posted the prompts here for your benefit.  I've posted my solutions el
 1.  my solution may be more than you want or need to read
 2.  you can come up with a better solution than mine, so you won't need to look at my solution!
 
-### Please note the brief overview of recursion that I posted below the problems.  It includes two classic examples of recursion in programming - calculating a *factorial* and a number in the *fibonacci sequence*.
+#### Please note the brief overview of recursion that I posted below the problems.  It includes two classic examples of recursion in programming - calculating a *factorial* and a number in the *fibonacci sequence*.
 
 # Practice Problems
 
