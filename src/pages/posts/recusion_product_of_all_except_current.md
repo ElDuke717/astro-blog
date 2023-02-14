@@ -7,7 +7,7 @@ publishDate: 14 Feb 2023
 name: Nick Huemmer
 twitter: 'https://twitter.com/nickhuemmer'
 value: 128
-description: Create an array of the products of all array elements except for the current element
+description: Create an array of the products of all array elements except for the current element.
 tags: JavaScript, recursion, codesmith, arrays, methods,
 ---
 
@@ -22,9 +22,6 @@ To make this work, we add a `dummy` array that is set and reset to the value of 
 It's pretty tricky and I had to add several `console.log` s the function so that I could figure out what was happening at each step of the process.
 
 ```javascript
-/*Write a function that takes an array of integers as an argument and returns a new array that contains the product of all the integers in the input array except the one at the current index. You can not use division.
- */
-
 // input: [1, 2, 3, 4, 5]
 // output: [120, 60, 40, 30, 24]
 

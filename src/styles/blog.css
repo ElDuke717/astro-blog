@@ -282,7 +282,7 @@ img.cover {
 }
 
 blockquote {
-  font-size: 1rem;
+  font-size: 1.25rem;
   --padding-block: 1rem;
   --padding-inline: 1.25rem;
   --color: var(--theme-divider);
@@ -293,6 +293,7 @@ blockquote {
   padding: var(--padding-block) var(--padding-inline);
   margin-left: calc(var(--padding-inline) * -1);
   margin-right: calc(var(--padding-inline) * -1);
+  margin-bottom: 75px;
 
   background: var(--color-gray-700);
   border-left: calc(var(--padding-inline) / 2) solid var(--color);
