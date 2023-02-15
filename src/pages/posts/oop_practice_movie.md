@@ -81,8 +81,49 @@ Movie.prototype.getSummary = function() {
 console.log(idiocracy.getSummary()); //'The movie Idiocracy was directed by Mike Judge and starred  Maya Rudolph, Dax Shepard, Luke Wilson,. It has been seen.'
 ```
 
+## Other solutions
 
-## Another solution
+### Here's a solution from Jonathan Kim
+
+It allows for more than one actor to be listed in the output.
+
+``javascript
+function Movie(title, director, actors) {
+  this.watched = false;
+  this.title = title
+  this.director = director
+  this.actors = actors
+}
+
+Movie.prototype.watch = function() {
+  this.watched = true;
+}
+Movie.prototype.unwatch = function() {
+  this.watched = false
+}
+Movie.prototype.getSummary = function() {
+  let current = this.watched ? 'been watched' : 'not been not watched';
+  if (this.actors.length > 2) {
+    const last = this.actors.pop()
+    this.actors = this.actors.join(', ') + ' and ' + last
+  }
+  return console.log(`The movie ${this.title} was directed by ${this.director} and starred ${this.actors}. It has ${current}.`)
+}
+
+const movie = new Movie('avengers', 'spike lee', ['trony', 'chris', 'peter'])
+console.log(movie)
+movie.watch();
+console.log(movie)
+movie.unwatch()
+console.log(movie)
+movie.getSummary()
+
+// Movie { watched: false, title: 'avengers', director: 'spike lee', actors: ['trony', 'chris', 'peter'] }
+// Movie { watched: true, title: 'avengers', director: 'spike lee', actors: ['trony', 'chris', 'peter'] }
+// Movie { watched: false, title: 'avengers', director: 'spike lee', actors: ['trony', 'chris', 'peter'] }
+// 'The movie avengers was directed by spike lee and starred trony, chris and peter. It has not been not watched.'
+
+```
 
 ```javascript
 function Movie(title, director, actors) {
