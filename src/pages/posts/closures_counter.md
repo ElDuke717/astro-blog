@@ -8,7 +8,7 @@ name: Nick Huemmer
 twitter: 'https://twitter.com/nickhuemmer'
 value: 128
 description: Keep count of numbers passed in using closure.
-tags: JavaScript, cloures, count, numbers
+tags: JavaScript, closures, count, numbers
 ---
 
 ## The Problem
