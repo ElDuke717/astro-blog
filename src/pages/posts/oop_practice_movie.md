@@ -87,7 +87,7 @@ console.log(idiocracy.getSummary()); //'The movie Idiocracy was directed by Mike
 
 It allows for more than one actor to be listed in the output.
 
-``javascript
+```javascript
 function Movie(title, director, actors) {
   this.watched = false;
   this.title = title
