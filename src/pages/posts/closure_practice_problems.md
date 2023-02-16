@@ -24,10 +24,11 @@ I've only posted the prompts here for your benefit.  I've posted my solutions el
 If you're having trouble understanding closures in JavaScript, check out my post [here](https://nickhuemmer.com/posts/closures_brief_explanation/).  It's a brief explanation of closures with a diagram of a sample problem.
 
 
-## Counter
->Declare a function 'counter', which takes no arguments and returns another function. The returned function takes a number as an argument, and when invoked, it will return the sum of the number passed in and the number initially passed to the 'counter' function.
+## Sums
+> Declare a function 'sums', which takes no arguments and returns another function. The returned function takes a number as an argument, and when invoked, it will return the total sum of the number passed in and the numbers that have previously been passed to the 'sums' function.
 
-[Solution](https://nickhuemmer.com/posts/closures_counter/)
+
+[Solution](https://nickhuemmer.com/posts/closures_sums/)
 
 ## numCount 
 
