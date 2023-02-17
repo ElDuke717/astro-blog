@@ -36,7 +36,7 @@ _We can use the outer function to create persistent memory that can be reference
 
 ## A simple example
 
-<img src="/img/sums_closure_example1.png" alt="an example of a closure problem" width="400"/>
+<img src="/img/sums_closure_example1.png" alt="an example of a closure problem" width="800"/>
 
 See how `sum` is used to store a value, and then is used again later? This is a simple example of a closure, and is the functionality that we want to take advantage of in our code.
 
