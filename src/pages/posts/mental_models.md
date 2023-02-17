@@ -33,7 +33,7 @@ A powerful type of mental model is a [memory palace](https://en.wikipedia.org/wi
 
 Another mental model is a [concept map](https://en.wikipedia.org/wiki/Concept_map). A concept map is a diagram that shows how different concepts relate to each other. For example, you could create a concept map that shows how different programming languages relate to each other. By understanding how these languages relate to each other, you can more easily learn new languages and understand how they work.
 
-<img src="/img/sci-method.jpeg" alt="the inside of a palace" width="300"/>
+<img src="/img/sci_method.jpeg" alt="diagram of the scientific method" width="300"/>
 
 A third mental model is the scientific method. The scientific method is a process that scientists use to test hypotheses and draw conclusions. It involves making observations, formulating a hypothesis, testing the hypothesis, and drawing conclusions. By understanding how the scientific method works, you can more easily solve problems and make decisions.
 
