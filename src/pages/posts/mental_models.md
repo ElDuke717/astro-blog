@@ -3,7 +3,7 @@ setup: |
   import Layout from '../../layouts/BlogPost.astro'
   
 title: Mental Models
-publishDate: 12 September 2022
+publishDate: 17 September 2023
 name: Nick Huemmer
 twitter: "https://twitter.com/nickhuemmer"
 value: 128
