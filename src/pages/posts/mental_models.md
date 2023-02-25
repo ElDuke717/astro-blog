@@ -36,10 +36,10 @@ A powerful type of mental model is a [memory palace](https://en.wikipedia.org/wi
 Another mental model is a [concept map](https://en.wikipedia.org/wiki/Concept_map). A concept map is a diagram that shows how different concepts relate to each other. For example, you could create a concept map that shows how client makes a request to an API or how the prototype chain works in object-oriented programming. By understanding how these languages relate to each other, you can more easily learn new languages and understand how they work.
 
 
-<img src="/img/mind_map.jpeg" alt="a mind map" width="300"/>
+<img src="/img/mind_map.png" alt="a mind map" width="300"/>
 A mind map is an example of a concept map.  It shows how different concepts relate to each other.
 
-<img src="/img/company_org_chart.jpeg" alt="a picture of an org chart" width="300"/>
+<img src="/img/company_org_chart.png" alt="a picture of an org chart" width="300"/>
 An organizational chart is an example of a concept map.  It shows how different departments relate to each other.
 
 ### The scientific method
