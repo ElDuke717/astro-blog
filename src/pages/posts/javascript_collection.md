@@ -3,7 +3,7 @@ setup: |
   import Layout from '../../layouts/BlogPost.astro'
   
 title: What is a Collection in Javascript?
-publishDate: 25 September 2023
+publishDate: 25 February 2023
 name: Nick Huemmer
 twitter: "https://twitter.com/nickhuemmer"
 value: 128

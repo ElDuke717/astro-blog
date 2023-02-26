@@ -3,7 +3,7 @@ setup: |
   import Layout from '../../layouts/BlogPost.astro'
   
 title: Reduce Under the Hood
-publishDate: 21 Feb 2023
+publishDate: 26 Feb 2023
 name: Nick Huemmer
 twitter: "https://twitter.com/nickhuemmer"
 value: 128
