@@ -17,9 +17,7 @@ JavaScript closures can be difficult to grasp and explaining them in a non-techn
 
 In JavaScript, a closure is formed when a function is defined within another function, allowing the inner function to access the outer function's variables and parameters beyond the execution of the outer function. This creates persistent memory within the outer function, which we can utilize to our advantage.
 
-Mental models are a great way to help us understand complex concepts.  
-
-[Mnemonic devices](https://en.wikipedia.org/wiki/Mnemonic) are a great way to help us remember things, too.  Here's a mnemonic device that I use to help me remember what we need to know about closures, the three "R"s:
+[Mnemonic devices](https://en.wikipedia.org/wiki/Mnemonic) are a great way to help us remember things.  Here's a mnemonic device that I use to help me remember what we need to know about closures, the three "R"s:
 
 1. They *_return_* another function,
 2. They *_reference_* variables from the outer function.
@@ -27,7 +25,7 @@ Mental models are a great way to help us understand complex concepts.
 
 When a function is defined, a new execution context is created, which has its own variable environment, containing any variables and parameters defined within that function. When a nested function is defined inside the outer function, it has access to the outer function's variable environment, as well as its own variable environment.
 
-Think of those little nesting dolls, [matroyska](https://en.wikipedia.org/wiki/Matryoshka_doll). They are a good [mental model]() for helping us understand closures.  Closures are kind of like the nesting dolls, the little dolls have access to the bigger dolls' stuff, but the bigger, outer dolls can't get to the little dolls stuff.
+Think of those little nesting dolls, [matroyska](https://en.wikipedia.org/wiki/Matryoshka_doll). They are a good [mental model](https://nickhuemmer.com/posts/mental_models/) for helping us understand closures.  Closures are kind of like the nesting dolls, the little dolls have access to the bigger dolls' stuff, but the bigger, outer dolls can't get to the little dolls stuff.
 
 <img src="/img/didssph-PB80D_B4g7c-unsplash.jpg" alt="a picture of matroyska" width="300"/>
 Russian nesting dolls, or matroyska dolls, by [Didssph](https://unsplash.com/@didssph)
