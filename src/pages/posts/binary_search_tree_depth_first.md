@@ -18,7 +18,7 @@ A binary search tree (BST) is a type of binary tree data structure where each no
 This characteristic makes binary search trees efficient for operations like lookup, insertion, and deletion.  Essentially, it can help you find a value in a sorted list quickly by repeatedly halving the list until you find the value you're looking for.
 
 Here's an example of a binary search tree:
-
+```
     8
    / \
   3   10
@@ -26,7 +26,7 @@ Here's an example of a binary search tree:
 1   6    14
    / \   /
   4   7 13
-
+```
 In this tree:
 
 - The root node is 8.
