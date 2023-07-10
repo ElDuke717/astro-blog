@@ -5,7 +5,7 @@ setup: |
 title: Leetcode 36 - Valid Sudoku
 publishDate: 02 Feb 2023
 name: Nick Huemmer
-twitter: 'https://twitter.com/nickhuemmer'
+twitter: 'https://twitter.com/nickjhuemmer'
 value: 128
 description: A solution for Leetcode Problem 36.
 tags: JavaScript, leetcode, loops, numbers, strings, arrays, nested loops
