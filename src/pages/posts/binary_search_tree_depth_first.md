@@ -2,7 +2,7 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
 
-title: Binary Search Tree Depth First
+title: Binary Search Tree Depth First Traversal
 publishDate: 10 July 2023
 name: Nick Huemmer
 twitter: 'https://twitter.com/nickjhuemmer'
@@ -63,6 +63,14 @@ DFS is an essential tool in many algorithms, including checking for cycles in a 
 # Depth First Search in JavaScript
 
 Here are two examples of how to implement a depth-first search in JavaScript. The first example is an iterative solution that uses a stack data structure. The second example is a recursive solution.
+
+One important thing to note is that depth first traversal can be contrasted with a breadth first approach where we traverse the tree level by level.  In the breadth first approach, we would visit the root node, then the left and right nodes, then the left and right nodes of the left and right nodes, and so on.  In the depth first approach, we would visit the root node, then the left node, then the left node of the left node, and so on.
+
+Depth first traversal is effectively done using a **stack data structure** where the **First In, First Out (FIFO)** pattern is followed.  You'll note that the iterative solution below uses a stack to handle the branching values, and its implemenation effectively does this using the native pop array method.  
+
+An easy way to differentiate Depth First from Breadth first is to remember:
+- Depth first uses a stack (FIFO), pop
+- Breadth first uses a queue (LIFO), shift
 
 The first thing to do is create a node class that has a value, a left node, and a right node.  The node class essentially constructs each node for the tree.  We then create a new binary search tree by creating a new node with values for every node, then set the left and right values for each node.  This is all that's need to create a basic binary tree.
 

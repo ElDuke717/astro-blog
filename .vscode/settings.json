@@ -19,5 +19,8 @@
         "titleBar.inactiveForeground": "#15202b99",
         "commandCenter.border": "#15202b99"
     },
-    "peacock.color": "#42b883"
+    "peacock.color": "#42b883",
+    "[markdown]": {
+        "diffEditor.wordWrap": "inherit"
+    }
 }
