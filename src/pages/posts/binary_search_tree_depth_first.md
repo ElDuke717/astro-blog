@@ -119,10 +119,10 @@ const depthFirstValues = (root) => {
     values.push(current.val);
     // as long as current has values, we push them to the array
     if (current.right) {
-      values.push(current.right);
+      stack.push(current.right);
     }
     if (current.left) {
-      values.push(current.left);
+      stack.push(current.left);
     }
   }
   return values;
