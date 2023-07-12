@@ -36,7 +36,7 @@ As a refresher, a queue is a structure much like a line at the DMV, where the fi
 
 We'll use a queue to keep track of the nodes we need to visit, and we'll push the root node onto the queue to start.  Then, we'll iterate through the queue, pushing the left and right nodes onto the queue as we go.  We'll also push the values of each node onto an array, which we'll return at the end.
 
-```
+```javascript
 // first we create a new binary search tree by creating a new node with values for every node
 class Node {
   constructor(val) {
