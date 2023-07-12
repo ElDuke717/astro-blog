@@ -1,21 +1,25 @@
 ---
 // Component Imports
-import BaseHead from '../components/BaseHead.astro';
-import BlogHeader from '../components/BlogHeader.astro';
-import BlogPostPreview from '../components/BlogPostPreview.astro';
+import BaseHead from "../components/BaseHead.astro";
+import BlogHeader from "../components/BlogHeader.astro";
+import BlogPostPreview from "../components/BlogPostPreview.astro";
 
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
-let title = 'JavaScript Problems, Programming, Algorithms and Development';
-let description = "I'm a food scientist turned web developer. I enjoy web development and the JavaScript ecosystem, though I often find them perplexing.  Here I post things that I've learned, think are interesting or useful.";
-let permalink = 'https://nickhuemmer.io/';
+let title = "Nick Huemmer | Software Engineer";
+let description = "I'm a software engineer who writes about programming.";
+let permalink = "https://nickhuemmer.io/";
 
 // Data Fetching: List all Markdown posts in the repo.
 
-let allPosts = await Astro.glob('./posts/*.md');
-allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
+let allPosts = await Astro.glob("./posts/*.md");
+allPosts = allPosts.sort(
+	(a, b) =>
+		new Date(b.frontmatter.publishDate).valueOf() -
+		new Date(a.frontmatter.publishDate).valueOf()
+);
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -57,7 +61,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf()
 			.latest {
 				font-size: 3rem;
 				font-weight: 700;
-				color: var(--theme-accent)
+				color: var(--theme-accent);
 			}
 		</style>
 	</head>
