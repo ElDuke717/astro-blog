@@ -2,7 +2,7 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
 
-title: useState and useEffect Hooks in React
+title: What are hooks in React?
 publishDate: 14 September 2023
 name: Nick Huemmer
 twitter: "https://twitter.com/njhuemmer"
