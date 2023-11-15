@@ -5,7 +5,7 @@ setup: |
 title: What are hooks in React?
 publishDate: 14 September 2023
 name: Nick Huemmer
-twitter: "https://twitter.com/njhuemmer"
+twitter: "https://twitter.com/nickhuemmer"
 value: 128
 description: What are hooks in React and how do we use them, specifically useState and useEffect?
 tags: JavaScript, React, hooks, functional components
@@ -138,7 +138,7 @@ In addition to the basic hooks, React provides a few more hooks for more specifi
 
 ## Rules of Hooks
 
-Hooks are JavaScript functions, but they have two additional rules:
+Hooks are JavaScript functions, but they have two additional rules that you should be aware of:
 
 1. Only call hooks at the top level. Don’t call hooks inside loops, conditions, or nested functions.
 2. Only call hooks from React function components or custom hooks.
@@ -165,6 +165,39 @@ function useApi(endpoint) {
 }
 ```
 
-To sum it up, hooks offer a powerful and expressive way to build your components. By understanding and applying hooks effectively, you can greatly simplify your components and make your code more maintainable.
+To sum it up, hooks offer a powerful and expressive way to build your components. By understanding and applying hooks effectively, you can greatly simplify your components and make your code more maintainable, ultimately making you a more productive developer and using React more enjoyable.
 
-Ready to start refactoring your class components or building new ones with hooks? Happy coding!
+## Resources
+
+Here are some resources to learn more about hooks:
+
+1. React Official Documentation:
+
+   - React Hooks Overview: [React Docs - Hooks](https://reactjs.org/docs/hooks-overview.html)
+   - Hooks API Reference: [React Docs - Hooks API](https://reactjs.org/docs/hooks-reference.html)
+   - Using the State Hook: [React Docs - useState](https://reactjs.org/docs/hooks-state.html)
+   - Using the Effect Hook: [React Docs - useEffect](https://reactjs.org/docs/hooks-effect.html)
+
+2. Articles and Tutorials:
+
+   - "Introducing Hooks" by Dan Abramov and Sophie Alpert on React Blog: [React Blog - Introducing Hooks](https://reactjs.org/blog/2018/11/13/react-conf-recap.html)
+   - "Hooks at a Glance" on React Docs: [React Docs - Hooks at a Glance](https://reactjs.org/docs/hooks-overview.html)
+   - "Building Your Own Hooks" on React Docs: [React Docs - Building Your Own Hooks](https://reactjs.org/docs/hooks-custom.html)
+
+3. Videos and Courses:
+
+   - React Conf 2018: "React Today and Tomorrow and 90% Cleaner React" by Dan Abramov: [YouTube - React Conf 2018](https://www.youtube.com/watch?v=dpw9EHDh2bM)
+   - "React Hooks Tutorial" by Ben Awad on YouTube: [YouTube - React Hooks Tutorial](https://www.youtube.com/watch?v=f687hBjwFcM)
+
+4. Books:
+
+   - ["Learning React: Modern Patterns for Developing React Apps" by Alex Banks and Eve Porcello](https://www.amazon.com/Learning-React-Modern-Patterns-Developing/dp/1492051725/ref=sr_1_1?dchild=1&keywords=learning+react&qid=1600098216&sr=8-1)
+   - ["Fullstack React: The Complete Guide to ReactJS and Friends" by Anthony Accomazzo, Nathaniel Murray, and Ari Lerner](https://www.amazon.com/Fullstack-React-Complete-ReactJS-Friends/dp/0991344626/ref=sr_1_1?dchild=1&keywords=fullstack+react&qid=1600098249&sr=8-1)
+
+5. Community and Discussions:
+
+   - Reactiflux Discord community: [Reactiflux Discord](https://www.reactiflux.com/)
+   - Stack Overflow React Hooks questions: [Stack Overflow - React Hooks](https://stackoverflow.com/questions/tagged/react-hooks)
+
+6. GitHub Repositories:
+   - Official React GitHub repository: [GitHub - React](https://github.com/facebook/react)
