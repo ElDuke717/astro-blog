@@ -1,0 +1,75 @@
+---
+setup: |
+  import Layout from '../../layouts/BlogPost.astro'
+
+title: Data Structures
+publishDate: 16 Nov 2023
+name: Nick Huemmer
+twitter: "https://twitter.com/nickhuemmer"
+value: 128
+description: An exploration of data structures and their importance in programming.
+tags: JavaScript, data structures, arrays, linked lists, stacks, queues, trees, graphs
+---
+
+## Introduction
+
+### What are Data Structures?
+
+Data structures are a way of organizing and storing data so that it can be accessed and modified efficiently. They are used to represent data in a way that is easy to understand and manipulate. Data structures are used in many different fields, including computer science, mathematics, and engineering.
+
+In the computer programming, data structures help us create efficient software. They are specialized formats of code that are used for organizing, processing, storing, and retrieving data for the specific requirements of algorithms and applications. Unlike humans who can comprehend and remember information presented in textual formats like written text in books and articles, computers utilize data structures that align with their terse, highly specific binary nature and processing capabilities.
+
+It is important for us to learn and use data structures to make software that we compose more efficient and easier to understand. In this blog post, we will explore the most common data structures and their uses.
+
+## Arrays
+
+The first data structure that we'll explore is the array.
+
+An array is a data structure that stores a collection of elements. Each element in the array is assigned a unique index, which is used to access the element. Arrays are used to store data in a sequential manner, and they can be accessed in constant time.
+
+### How Arrays Work
+
+![array notes](/public/img/array.png)
+
+II. Arrays
+
+- Define arrays and explain how they work.
+- Discuss the advantages and disadvantages of using arrays.
+- Provide examples of when to use arrays.
+
+III. Linked Lists
+
+![linked list notes](/public/img/linked-list.png)
+
+- Define linked lists and explain how they work.
+- Discuss the advantages and disadvantages of using linked lists.
+- Provide examples of when to use linked lists.
+
+IV. Stacks
+
+- Define stacks and explain how they work.
+- Discuss the advantages and disadvantages of using stacks.
+- Provide examples of when to use stacks.
+
+V. Queues
+
+- Define queues and explain how they work.
+- Discuss the advantages and disadvantages of using queues.
+- Provide examples of when to use queues.
+
+VI. Trees
+
+- Define trees and explain how they work.
+- Discuss the advantages and disadvantages of using trees.
+- Provide examples of when to use trees.
+
+VII. Graphs
+
+- Define graphs and explain how they work.
+- Discuss the advantages and disadvantages of using graphs.
+- Provide examples of when to use graphs.
+
+VIII. Conclusion
+
+- Summarize the main points of the blog post.
+- Provide additional resources for readers who want to learn more about data structures.

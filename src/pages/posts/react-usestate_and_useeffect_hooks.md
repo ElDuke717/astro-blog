@@ -13,7 +13,9 @@ tags: JavaScript, React, hooks, functional components
 
 # Hooks in React
 
-Hooks are a feature in React 16.8 that allow you to use state and other React features without writing a class. Many developers that have been using React for awhile remember writing and using Class components to manage state and lifecycle methods. Hooks allow you to do the same thing with functional components.
+Hooks are a feature in React 16.8 that allow you to use state and other React features without writing a class. Many developers that have been using React for awhile remember writing and using Class components to manage state and lifecycle methods. Lately, there has been a shift towards using functional components instead of class components as functional components are simpler and more concise.
+
+Hooks allow you to manage state in functional components.
 
 Before, when defining a component, you had to use a class to define state and lifecycle methods. Now, you can use a function component and use hooks to define state and lifecycle methods.
 
@@ -165,7 +167,7 @@ function useApi(endpoint) {
 }
 ```
 
-To sum it up, hooks offer a powerful and expressive way to build your components. By understanding and applying hooks effectively, you can greatly simplify your components and make your code more maintainable, ultimately making you a more productive developer and using React more enjoyable.
+To put it all together, hooks offer a powerful and expressive way to build your components. By understanding and applying hooks effectively, you can greatly simplify your components and make your code more maintainable, ultimately making you a more productive developer and using React more enjoyable.
 
 ## Resources
 
