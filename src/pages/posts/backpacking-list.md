@@ -11,6 +11,9 @@ description: A list of gear for backpacking trips into the Appalachian Mountains
 tags: backpacking, camping, hiking, gear, Appalachian Mountains, outdoors, nature, backpacking gear list
 ---
 
+I'm getting ready to do some backpacking in the Appalachian Mountains with my son and our dog.  I've been working on a gear list to make sure we have everything we need for a successful trip.  Here's what I've come up with so far:
+
+
 # Backpacking Gear List
 
 
